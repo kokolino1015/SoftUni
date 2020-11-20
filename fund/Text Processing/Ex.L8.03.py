@@ -1,0 +1,5 @@
+character = chr(92)
+words = input().split(f"{character}")
+word = words[-1].split(".")
+print(f"File name: {word[0]}")
+print(f"File extension: {word[1]} ")

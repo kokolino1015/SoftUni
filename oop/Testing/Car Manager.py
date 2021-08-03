@@ -1,7 +1,5 @@
 import unittest
 
-# from Testing.testing_lab.car_manager.car_manager import Car
-
 
 class TestCar(unittest.TestCase):
     def __get_exception_from_init(self, make, model, fuel_consumption, fuel_capacity):
